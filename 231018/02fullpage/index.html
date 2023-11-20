@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <!--Fullpage.js-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css"
+    />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom -->
+    <link rel="stylesheet" href="/02fullpage/style.css" />
+    <script defer src="/02fullpage/script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navber-collapse"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="https://www.naver.com" class="navbar-brand"
+          ><img src="/imgs/logo.png" alt="logo"
+        /></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" id="topMenu">
+          <li data-menuanchor="1stBook">
+            <a href="#1stBook">맥북 & 아이맥</a>
+          </li>
+          <li data-menuanchor="2ndBook">
+            <a href="#2ndBook">웹사이트 기획</a>
+          </li>
+          <li data-menuanchor="3rdBook">
+            <a href="#3rdBook">R 데이터 분석</a>
+          </li>
+          <li data-menuanchor="4thBook">
+            <a href="#4thBook">동영상 목록</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="fullpage">
+      <div
+        id="book1"
+        class="book-container section"
+        data-anchor="1stBook"
+      >
+      <div class="container">
+        <h1>맥북 & 아이맥 - 맥OS 하이시에라 판</h1>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <ul>
+              <li>저자 : EZEN IT</li>
+              <li>발행일 : 2023-11-11</li>
+              <li>페이지 : 352쪽</li>
+              <li>정가 : 15,800원</li>
+            </ul>
+          </div>
+        </div>
+        <div class="book-desc">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Necessitatibus rerum natus sunt corporis nemo dolores ipsam eius
+            asperiores dolorem. Eius, dignissimos aut quam suscipit porro sint
+            exercitationem ad culpa non!
+          </p>
+        </div>
+      </div>
+      <div
+        id="book2"
+        class="book-container section"
+        data-anchor="2ndBook"
+      >
+      <h1>맥북 & 아이맥 - 맥OS 하이시에라 판</h1>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <ul>
+            <li>저자 : EZEN IT</li>
+            <li>발행일 : 2023-11-11</li>
+            <li>페이지 : 352쪽</li>
+            <li>정가 : 15,800원</li>
+          </ul>
+        </div>
+      </div>
+      <div class="book-desc">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Necessitatibus rerum natus sunt corporis nemo dolores ipsam eius
+          asperiores dolorem. Eius, dignissimos aut quam suscipit porro sint
+          exercitationem ad culpa non!
+        </p>
+      </div>
+      </div>
+      <div
+        id="book3"
+        class="book-container section"
+        data-anchor="3rdBook"
+      ></div>
+      <div id="book4" class="container section" data-anchor="4thBook"></div>
+    </div>
+  </body>
+</html>

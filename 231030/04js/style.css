@@ -1,0 +1,15 @@
+#container {
+  width: 500px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 1.5em;
+}
+td {
+  padding: 5px 10px;
+  font-size: 1.5em;
+}
+#result td:last-child {
+  background: #000;
+  color: #fff;
+}

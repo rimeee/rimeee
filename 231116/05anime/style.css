@@ -1,0 +1,22 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.circle1 {
+  background: SteelBlue;
+}
+.circle2 {
+  background: SlateGrey;
+}
