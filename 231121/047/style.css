@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+/* .user {
+  border: 1px solid #fff;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+.user p {
+  margin-top: 8px;
+  font-weight: bold;
+}
+.user span {
+  font-weight: lighter;
+} */
