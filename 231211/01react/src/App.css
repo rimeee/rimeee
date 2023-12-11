@@ -1,0 +1,19 @@
+body {
+  background: url("https://ncas.ac.uk/app/uploads/2020/05/Climate-Weather-Blue-Clouds-1280px-1024x576.jpg")
+    center center/cover no-repeat;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.weather-box {
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 50px;
+  background: #fff;
+}
